@@ -1,98 +1,63 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WikiSukuna</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Langar&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">WikiSukuna</a>
 
-<html>
-    <head>
-        <meta charset="UTF-8"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>WikiSukuna</title>
-        <link rel="stylesheet" href="styles2.css"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/eaebbde580.js" 
-        crossorigin="anonymous">
-        </script>
-        <script src="https://kit.fontawesome.com/c9b87a4bee.js"
-        crossorigin="anonymous"></script>
-        
+        <ul class="navlist">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Images</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
 
-    </head>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
 
-    <body>
-        <div class="container"> 
-            <header class="header">
-                <a href="index.html"> <img src="img/logo.png" width="80px" alt="logo"> </a>
-                <nav class="navbar">
-                    <ul class="navlist"> 
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="#acerca-de">Acerca de Sukuna</a></li>
-                        <li><a href="#historia">Historia</a></li> 
-                        <li><a href="#galeria">Galería</a></li>
-                        <li><a href="#contacto">Contacto</a></li>         
-                    </ul> 
-                </nav>
-                    <div class="bx bx-menu" id="menu-icon"> </div>
-            </header>
-
-            <main id="seccion-principal">
-                <section class="section-1">
-                    <div class="acerca-de" id="acerca-de">
-
-                        <h2>Acerca de Sukuna Ryomen</h2>
-                        <p class="parrafo1" style="color: white;">¡Bienvenido a mi pagina! Aquí, aprenderás más sobre Sukuna Ryomen</p>
-                        <p class="parrafo2" style="color: white;"> Ryomen Sukuna (両面宿儺 Ryōmen Sukuna?) (lit. Sukuna de la Doble Cara), más comúnmente conocido como Sukuna (宿儺 Sukuna?) 
-                            es el antagonista principal de la serie manga Jujutsu Kaisen. Apodado Rey de las Maldiciones (呪いの王 Noroi no Ō?), 
-                            fue el chamán más fuerte de hace mil años y actualmente una encarnación de objetos malditos de grado especial.
-                        </p>
-                    </div>
-
-                    <div class="img-acerca">
-                     <img src="img/img1.png" width="220px" alt="img-acerca"/>
-                    </div>
-                    
-                    <div class="historia" id="historia">
-
-                        <h2>Historia de Sukuna</h2>
-                        <p class="parrafo1" style="color: white;">De acuerdo a la leyenda, Sukuna fue un demonio con apariencia humana que existió durante la era dorada del Jujutsu hace unos 1000 años,
-                            los hechiceros al perfeccionar sus habilidades pudieron derrotarlo. Después de su muerte, no fueron capaces de destruir su cuerpo y traspasó generaciones en forma de objetos malditos, 
-                            representados en un total de 20 dedos. Sin embargo, años más tarde, durante el período moderno, Yuji Itadori termina en posesión de un dedo y lo ingiere en un intento de ayudar a las personas de su alrededor,
-                            como resultado, Sukuna logra encarnar en su cuerpo.
-                            Despues de su victoria contra Gojo Satoru, Sukuna se titula como el personaje mas poderoso de la obra, cosa admitida por el mismo Gojo satoru.</p>
-                        
-                    </div>
-
-                    <div class="img-historia">
-                     <img src="img/img2.webp" width="220px" alt="img-historia"/>
-                    </div>
-
-                    <div class="imagenes" id="galeria">
-
-                        <h2>Galería</h2>
-                        <img src="img/gif1.gif" width="350px" alt="">
-                        <img src="img/gif2.gif" width="350px" alt="">
-                        <img src="img/gif3.webp" width="350px" alt="">
-                        <img src="img/gif4.gif" width="350px" alt="">
-                    </div>
-
-                </section>
-
-            </main>
-            <footer>
-
-                <div id="contacto">
-                <h2>Contacto</h2>
-                <nav>
-                    <ul> 
-                        <li><a href="https://www.instagram.com/sntg_rm/">Instagram</a></li> <br>
-                        <li><a href="https://www.tiktok.com/@sntg_rm">TikTok</a></li> <br>
-                        <li><a href="https://www.whatsapp.com">Whatsapp</a></li> <br>
-                    </ul>
-                </nav>
-                <a href="index.html"> <i class="fa-solid fa-heart"></i> </a>
-                </div>
-
-            </footer>
+    <section class="hero">
+        <div class="hero-text">
+            <h5>Welcome to my page about</h5>
+            <h4>Jujutsu Kaisen</h4>
+            <h1>Sukuna</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#">Compare</a>
+            <a href="#" class="ctaa"><i class="ri-play-fill"></i>Watch Fights</a>
         </div>
-    </body>
+
+        <div class="hero-img">
+            <img src="img/main.png" alt="">
+        </div>
+    </section>
+
+    <div class="icons">
+        <a href="#"><i class="ri-facebook-fill"></i></a>
+        <a href="#"><i class="ri-twitter-fill"></i></a>
+        <a href="#"><i class="ri-instagram-fill"></i></a>
+    </div>
+
+    <div class="scroll-down">
+        <a href="#"><i class='bx bxs-down-arrow'></i></a>
+    </div>
+
+    <!-- Scroll Reveal Effect -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Scrip JS -->
+    <script src="script.js"></script>
+</body>
 </html>
